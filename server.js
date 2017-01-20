@@ -92,11 +92,7 @@ io.on("connection", function(socket){
 	    userlist.push(socket.username);
 	});
 
-  /*
-    When a client disconnects from the server, the event "disconnect" is automatically
-    captured by the server. It will then emit an event called "userDisconnected" to
-    all participants with the id of the client that disconnected
-  */
+    //When a client disconnects from the server
     socket.on('disconnect', function(data){
         userlist.splice(userlist.indexOf(socket.username), 1);
         io.sockets.emit('current userlist',userlist);
