@@ -92,7 +92,7 @@ io.on("connection", function(socket){
 	    userlist.push(socket.username);
 	});
 
-    //When a client disconnects from the server
+    // when a user disconnects from the server
     socket.on('disconnect', function(data){
         userlist.splice(userlist.indexOf(socket.username), 1);
         io.sockets.emit('current userlist',userlist);
