@@ -1,0 +1,118 @@
+.views{
+	width: 95%;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+.login_view{
+	height: 100%;
+	background: #87CEFA;
+		border-radius: 10px;
+}
+.login_panel{
+	height: 100px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: 250px;
+}
+.login_info{
+	font-family: serif;
+	font-weight: bold;
+	font-size: 40px;
+	color: white;
+}
+.logo{
+	position: relative;
+	top: -40px;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 60px;
+	color: #FFEFD5;
+	text-shadow: black 0 1px 0;
+}
+.login_input{
+	font-size: 28px;
+	text-align: center;
+	border: 0;
+	height: 50px;
+	width: 500px;
+	margin-top: 40px;
+	border-radius: 10px;
+}
+.message_view{
+	height: 600px;
+	width: 1096px;
+    display: none;
+}
+.message_field{
+	height: 90%;
+	width: 1096px;
+	margin: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.message_input{
+	font-size: 20px;
+	font-family: serif;
+	text-align: right;
+	padding-right: 10px;
+	width: 1066px;
+	height: 10%;
+	background: rgb(244,244,246);
+	margin: 0;
+	margin-left: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border: 0;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.message_list{
+    height: 100%;
+    overflow-y: scroll;
+    background:#FFF8DC;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+.message_item{
+	border-radius: 10px;
+	background-color: #9ACD32;
+	height: auto;
+	margin: 0;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+.message_item.self{
+	background-color: #9cf;
+}
+.message_from{
+	font-family: serif;
+	font-size: 150%;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.message_time{
+	font-family: sans-serif;
+	float: right;
+	margin-right: 10px;
+	font-size: 15px;
+}
+.message_title{
+	height: 20px;
+	line-height: 20px;
+	margin: 0;
+	padding-top: 10px;
+}
+.message_text{
+	font-family: serif;
+	font-size: 120%;
+	margin-top: 0;
+	padding: 10px;
+}

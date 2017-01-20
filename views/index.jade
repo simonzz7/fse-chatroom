@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans')
+    link(rel='stylesheet', href='/css/style.css')  
+    script(src='https://code.jquery.com/jquery-3.1.0.min.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='/js/index.js')  
+    title FSE Chatroom
+  body
+    div(class="views")
+      div(class="login_view")
+        div(class="login_panel")
+          div(class="logo") FSE Chatroom
+          div(class="login_info") Please input your name:
+          input(class="login_input",placeholder="your name in the chatroom")
+      div(class="message_view")
+        div(class="message_field")
+          ul(class="message_list")
+        input(class="message_input", placeholder="Text your message, Press Enter to send.")
